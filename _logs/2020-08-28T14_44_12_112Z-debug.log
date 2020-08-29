@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'cache',
+1 verbose cli   'clean'
+1 verbose cli ]
+2 info using npm@6.14.5
+3 info using node@v12.18.2
+4 verbose npm-session b89537a2800fd7d5
+5 verbose stack Error: As of npm@5, the npm cache self-heals from corruption issues and data extracted from the cache is guaranteed to be valid. If you want to make sure everything is consistent, use 'npm cache verify' instead. On the other hand, if you're debugging an issue with the installer, you can use `npm install --cache /tmp/empty-cache` to use a temporary cache instead of nuking the actual one.
+5 verbose stack
+5 verbose stack If you're sure you want to delete the entire cache, rerun this command with --force.
+5 verbose stack     at clean (C:\Program Files\nodejs\node_modules\npm\lib\cache.js:72:22)
+5 verbose stack     at EventEmitter.cache (C:\Program Files\nodejs\node_modules\npm\lib\cache.js:47:16)
+5 verbose stack     at Object.commandCache.<computed> (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:156:13)
+5 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js:131:30)
+5 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:79:11)
+6 verbose cwd D:\HTML\Vue\Vue-Cli\vue-letao
+7 verbose Windows_NT 10.0.18362
+8 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "cache" "clean"
+9 verbose node v12.18.2
+10 verbose npm  v6.14.5
+11 error As of npm@5, the npm cache self-heals from corruption issues and data extracted from the cache is guaranteed to be valid. If you want to make sure everything is consistent, use 'npm cache verify' instead. On the other hand, if you're debugging an issue with the installer, you can use `npm install --cache /tmp/empty-cache` to use a temporary cache instead of nuking the actual one.
+11 error
+11 error If you're sure you want to delete the entire cache, rerun this command with --force.
+12 verbose exit [ 1, true ]
