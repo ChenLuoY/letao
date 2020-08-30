@@ -6,7 +6,10 @@
 
 <script>
 export default {
-
+    created() {
+        this.$parent.showNavBar({title:"我的乐淘"})
+        this.$parent.hideHeader();
+    },
 }
 </script>
 

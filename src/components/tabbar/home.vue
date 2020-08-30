@@ -94,6 +94,11 @@ export default {
     }
   },
   created () {
+    //   重新显示头部
+    this.$parent.hideNavBar();
+    this.$parent.showHeader();
+
+    
     this.getLunbo()
     this.getRecommend()
   }
@@ -154,8 +159,9 @@ export default {
                     }
                     .footer{
                         display: flex;
-                        justify-content: space-between;
-                        align-items: center;            // 纵轴     上居中
+                        
+                        ;
+                        align-items: center;   // 侧轴(纵轴)上居中         // 纵轴     上居中
                         padding: 4px;
                         .price {
                             font-size: 14px;

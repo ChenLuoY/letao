@@ -7,7 +7,10 @@
 
 <script>
 export default {
-
+    created() {
+        this.$parent.showNavBar({title:"购物车"})
+        this.$parent.hideHeader();
+    },
 }
 </script>
 

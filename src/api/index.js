@@ -10,3 +10,8 @@ export async function getLunBoData () {
 export async function getRecommendData (limit = 10) {
   return await instance.get(`/recommend?limit=${limit}`)
 }
+
+// 获取新闻资讯列表数据
+export async function getNewsListData (page=1,pagesize=5) {
+  return  await instance.get(`/getnewslist?page=${page}&pagesize=${pagesize}`);
+}
